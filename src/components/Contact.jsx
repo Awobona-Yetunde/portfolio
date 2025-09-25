@@ -56,7 +56,7 @@ const Contact = () => {
             Have a project in mind or want to collaborate? Feel free to reach
             out. I'm always open to discussing new opportunities
           </p>
-          <div className="bg-black sm:w-[300px] w-[400px] max-w-lg p-8 rounded-xl mx-auto">
+          <div className="bg-black sm:w-[300px] md:w[450px] lg:w-[500px] max-w-lg p-8 rounded-xl mx-auto">
             <h3 className="text-3xl font-bold mb-6">Send a message</h3>
             <form className="flex flex-col justify-between" onSubmit={handleSubmit}>
               <div className="mb-5">
