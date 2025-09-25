@@ -12,8 +12,8 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky z-10 top-0 py-4 sm:py-5 bg-black px-4 sm:px-6 md:px-8">
-      <div className="container mx-auto flex justify-between items-center">
+    <header className="sticky z-10 top-0 py-4 sm:py-5 bg-black px-4 sm:px-6 md:px-8 ">
+      <div className=" flex justify-between items-center">
         <div className="text-white">
           <h1 className="text-lg sm:text-xl md:text-2xl font-bold">Awobona Yetunde</h1>
         </div>
@@ -34,7 +34,7 @@ const Header = () => {
             Contact
           </a>
         </nav>
-        <div className="md:hidden">
+        <div className=" md:hidden ">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}

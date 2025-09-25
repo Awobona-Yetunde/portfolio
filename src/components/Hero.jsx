@@ -27,7 +27,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="py-5 ">
-      <div className="flex flex-col gap-12 md:flex-row md:gap-30 min-h-[calc(100vh-6rem)] items-center justify-center">
+      <div className="flex flex-col gap-12 md:flex-row md:gap-30 min-h-[calc(100vh-6rem)] items-center justify-center lg:px-22">
         
         <motion.div
           className="w-[430px] px-5 flex flex-col gap-3 mx-auto"
@@ -38,8 +38,8 @@ const Hero = () => {
           <h2 className="font-bold text-5xl">
             Hi, I'm <span className="text-purple-700">Awobona</span> Yetunde
           </h2>
-          <p className="font-semibold">I am a Fullstack Developer</p>
-          <p>
+          <p className="font-semibold px-3">I am a Fullstack Developer</p>
+          <p className="mx-auto px-3">
             I craft innovative software solutions that drive impact. With
             expertise in full-stack development, I transform concepts into
             reality, creating interfaces that are both intuitive and engaging.
@@ -58,7 +58,7 @@ const Hero = () => {
         </motion.div>
 
         
-        <motion.div initial="hidden" animate="visible" variants={imageVariants}>
+        <motion.div initial="hidden" animate="visible" variants={imageVariants} className="px-12">
           <img
             src="/images/mypic.jpg"
             className="h-[300px] w-[300px] rounded-full"
