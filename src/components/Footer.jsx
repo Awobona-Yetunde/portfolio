@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="items-center justify-center py-12 ">
       <hr className="w-[80%] mx-auto mb-4"></hr>
-      <div className="flex justify-center gap-23">
+      <div className="flex justify-center gap-23 px-3">
         <p>&copy; 2025 Awobona Yetunde. All rights reserved</p>
         <nav className="flex gap-8">
           <a

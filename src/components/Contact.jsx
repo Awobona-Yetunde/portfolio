@@ -52,11 +52,11 @@ const Contact = () => {
           <h2 className="font-bold text-4xl">
             Get In <span className="text-purple-800">Touch</span>
           </h2>
-          <p className="text-center w-[450px] md:w-[550px]">
+          <p className="text-center sm:w-[380px] md:w-[550px] mx-auto">
             Have a project in mind or want to collaborate? Feel free to reach
             out. I'm always open to discussing new opportunities
           </p>
-          <div className="bg-black w-[450px] max-w-lg p-8 rounded-xl">
+          <div className="bg-black sm:w-[300px] w-[400px] max-w-lg p-8 rounded-xl mx-auto">
             <h3 className="text-3xl font-bold mb-6">Send a message</h3>
             <form className="flex flex-col justify-between" onSubmit={handleSubmit}>
               <div className="mb-5">

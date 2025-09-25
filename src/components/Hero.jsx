@@ -26,11 +26,11 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="py-5">
+    <section id="hero" className="py-5 ">
       <div className="flex flex-col gap-12 md:flex-row md:gap-30 min-h-[calc(100vh-6rem)] items-center justify-center">
         
         <motion.div
-          className="w-[450px] flex flex-col gap-3"
+          className="w-[430px] px-5 flex flex-col gap-3 mx-auto"
           initial="hidden"
           animate="visible"
           variants={textVariants}
